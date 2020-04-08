@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="27f9b4dc-a0a6-4398-aad4-74d6e1fd4f5e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Module1/luyentapmang1/bai1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module1/luyentapmang1/bai2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module1/luyentapmang1/bai3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module1/luyentapmang1/bai4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module1/maytinh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module1/tapcode/testcode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module1/tapcode/testcode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai1/SystemTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../source/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../source/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../source/.idea/source.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../source/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../source/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../source/new.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Codegym\module2\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aFIlYo1VGmq99zs6JsUeHaMcBU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27f9b4dc-a0a6-4398-aad4-74d6e1fd4f5e" name="Default Changelist" comment="" />
+      <created>1586325066741</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586325066741</updated>
+      <workItem from="1586325070428" duration="163000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="462" y="107" key="FileChooserDialogImpl" timestamp="1586325229322">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="107" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586325229322" />
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1586325070738">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586325070738" />
+    <state x="65" y="0" key="new project wizard" timestamp="1586325231523">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1586325231523" />
+  </component>
+</project>
