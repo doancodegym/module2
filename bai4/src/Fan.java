@@ -7,9 +7,9 @@ public class Fan {
 
         Project Fan2 = new Project(MEDIUM,false,5,"Blue");
 
-        Fan1.toString();
+        Fan1.toStringFan();
         System.out.println("");
-        Fan2.toString();
+        Fan2.toStringFan();
     }
 
     public static class Project{
@@ -49,8 +49,8 @@ public class Fan {
         private String setColor(String value){
             return this.color = value;
         }
-        public String toString(){
-            if(this.on == true){
+        public void toStringFan(){
+            if(this.on){
                 System.out.println("Info Fan :");
                 System.out.println("Speed : "+ speed);
                 System.out.println("Color : "+color);
@@ -59,11 +59,10 @@ public class Fan {
             }
             else {
                 System.out.println("Info Fan :");
-                System.out.println("Color : "+this.getColor());
-                System.out.println("Radius : "+this.getRadius());
+                System.out.println("Color : "+color);
+                System.out.println("Radius : "+radius);
                 System.out.println("Fan is off !");
             }
-            return null;
         }
     }
 }
