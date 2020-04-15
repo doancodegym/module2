@@ -8,12 +8,12 @@ public class ProgrammingBook extends Book{
     ProgrammingBook(){
     }
     ProgrammingBook(String language,String framework){
-        this.language = language;
+        this.setLanguage(language);
         this.framework = framework;
     }
     ProgrammingBook(String name,String author,int price,int bookCode,String language,String framework){
         super(name, author, price, bookCode);
-        this.language = language;
+        this.setLanguage(language);
         this.framework = framework;
     }
 
