@@ -1,6 +1,11 @@
+package baitapngay20_4;
+
+import baitapngay20_4.Discount;
+import baitapngay20_4.Material;
+
 import java.util.Calendar;
 
-public class Meet extends Material implements Discount{
+public class Meet extends Material implements Discount {
     int unit,weight;
 
     public Meet() {

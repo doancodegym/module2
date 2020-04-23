@@ -1,8 +1,10 @@
+package baitapngay20_4;
+
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-public class crispyFlour extends Material implements Discount{
+public class crispyFlour extends Material implements Discount {
     int quantity;
 
     public crispyFlour() {

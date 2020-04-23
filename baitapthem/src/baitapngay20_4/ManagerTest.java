@@ -1,3 +1,5 @@
+package baitapngay20_4;
+
 import java.util.Calendar;
 
 public class ManagerTest {
@@ -50,7 +52,7 @@ public class ManagerTest {
         System.out.printf("Money Flour: %d VND !\n", totalMoneyFlour);
         System.out.printf("Money Meat: %d VND !\n", totalMoneyMeet);
         System.out.printf("Total money : %d VND !\n", totalMoney);
-        System.out.printf("Money Discount: %d VND !", Discount);
+        System.out.printf("Money baitapngay20_4.Discount: %d VND !", Discount);
 
     }
     public static int remainingDay(Material material){
