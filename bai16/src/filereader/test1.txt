@@ -1,0 +1,5 @@
+dòng thứ nhất
+dòng thứ hai
+dòng thứ ba
+dòng thứ tư
+hết

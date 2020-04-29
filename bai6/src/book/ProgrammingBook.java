@@ -1,6 +1,6 @@
 package book;
 
-public class ProgrammingBook extends Book{
+public class ProgrammingBook extends Book implements SearchBook{
     public static int count;
     private String language;
     private String framework;
@@ -39,5 +39,13 @@ public class ProgrammingBook extends Book{
         return super.toString()+ "\nLanguage : "+getLanguage()
                 + "\nFramework : "+getFramework()+
                 "\n-----------------------";
+    }
+
+    @Override
+    public int search(String name) {
+        if(this.getName()== name){
+            return this.getPrice();
+        }
+        return getPrice();
     }
 }
