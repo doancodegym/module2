@@ -1,18 +1,24 @@
 package main;
 
 import controller.ProductManager;
-public class Main {
-    public static void main(String[] args) {
-        ProductManager product =  new ProductManager();
-        product.addProduct("kẹo",1,1000,true,"Kẹo ngon thích hợp cho trẻ em");
-        product.addProduct("bánh",2,5000,true,"Kẹo ngon thích hợp cho trẻ em");
-        product.addProduct("sữa",3,4000,true,"Sữa tươi ngon hơn khi uống lạnh");
-        product.addProduct("trái cây",4,15000,true,"Trái cây tươi nhập khẩu");
-        product.addProduct("nước ngọt",5,10000,true,"Nước giải khát mát lạnh");
-        product.addProduct("bia",6,12000,true,"Đồ uông chỉ phù hợp với người lớn");
 
+import java.io.*;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        ProductManager product =  new ProductManager();
+        File fileProduct = new File("C:\\Codegym\\module2\\baitapluyencode\\src\\storage\\list.txt");
+        FileReader fileReader = new FileReader(fileProduct);
+        BufferedReader bufferedReader = new BufferedReader(fileReader);
+        String line = "";
+        while ((line = bufferedReader.readLine())!= null){
+            String[] list = line.split(",");
+            product.addProduct(list);
+        }
+        product.ShowInfo();
+        System.out.println("\n\nSau khi chỉnh sửa và sắp xếp !!!!!!\n\n");
         product.delete("Sữa");
-        product.edit(1,"kem",2,5000,true,"Kem thơm ngon mát lạnh");
+        product.edit(1,"kem",2,5000,"Còn hàng","Kem thơm ngon mát lạnh");
         product.soft(true);
 
     }

@@ -1,0 +1,6 @@
+kẹo,1,1000,Còn hàng,Kẹo ngon thích hợp cho trẻ em
+bánh,2,5000,Còn hàng,Bánh ngon thích hợp cho trẻ
+sữa,3,4000,Sắp hết hàng,Sữa tươi ngon hơn khi uống lạnh
+trái cây,4,15000,Còn hàng,Trái cây tươi nhập khẩu
+nước ngọt,5,10000,Hết hàng,Nước giải khát mát lạnh
+bia,6,12000,Hết hàng,Đồ uông chỉ phù hợp với người lớn

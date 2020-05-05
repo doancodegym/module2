@@ -3,12 +3,12 @@ package model;
 public class Product implements ProductInfomation{
     private String name,description;
     private int id,price;
-    private boolean status;
+    private String status;
 
     public Product() {
     }
 
-    public Product(String name, int id, int price, boolean status,String description) {
+    public Product(String name, int id, int price, String status,String description) {
         this.name = name;
         this.id = id;
         this.price = price;
@@ -48,11 +48,11 @@ public class Product implements ProductInfomation{
         this.price = price;
     }
 
-    public boolean isStatus() {
+    public String getStatus() {
         return status;
     }
 
-    public void setStatus(boolean status) {
+    public void setStatus(String status) {
         this.status = status;
     }
 
@@ -62,7 +62,7 @@ public class Product implements ProductInfomation{
         System.out.println("Tên SP : " + getName());
         System.out.println("ID : " + getId());
         System.out.println("Giá SP : " + getPrice());
-        System.out.println("Trạng thái : " + isStatus());
+        System.out.println("Trạng thái : " + getStatus());
         System.out.println("Mô tả : " + getDescription());
         System.out.println("====================");
 
