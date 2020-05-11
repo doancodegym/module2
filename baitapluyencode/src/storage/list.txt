@@ -1,6 +1,50 @@
-kẹo,1,1000,Còn hàng,Kẹo ngon thích hợp cho trẻ em
-bánh,2,5000,Còn hàng,Bánh ngon thích hợp cho trẻ
-sữa,3,4000,Sắp hết hàng,Sữa tươi ngon hơn khi uống lạnh
-trái cây,4,15000,Còn hàng,Trái cây tươi nhập khẩu
-nước ngọt,5,10000,Hết hàng,Nước giải khát mát lạnh
-bia,6,12000,Hết hàng,Đồ uông chỉ phù hợp với người lớn
+abstract _(n.)_bài tóm lược (cuốn sách, luận án, bài diễn văn...)_http://audio.tflat.vn/audio/a/b/abstract.mp3_ An abstract always appears at the beginning of a manuscript or typescript._Bài tóm lược luôn xuất hiện ở phần đầu của một bài viết hoặc bản sao chép.
+access _(n.)_quyền truy cập, sự tiếp cận _http://audio.tflat.vn/audio/a/c/access.mp3_ I cannot easily get access to the Internet. _Tôi không thể dễ dàng có được quyền truy cập vào Internet.
+accommodate _(v.)_cho trọ, cung cấp chỗ ở_http://audio.tflat.vn/audio/a/c/accommodate-1.mp3_ The hotel can accommodate up to 500 guests. _Khách sạn có sức chứa lên đến 500 khách.
+accuracy _(n.)_sự chính xác_http://audio.tflat.vn/audio/a/c/accuracy.mp3_ They questioned the accuracy of the information in the file._Họ đặt nghi vấn về tính chính xác của các thông tin trong file.
+accused _(n.)_bị cáo_http://audio.tflat.vn/audio/a/c/accused.mp3_ The accused was found innocent._Bị cáo đã được xác minh vô tội.
+acquire _(v.)_đạt được, thu được_http://audio.tflat.vn/audio/a/c/acquire.mp3_ She has acquired a good knowledge of English._Cô ấy đã đạt được một kiến thức tốt về tiếng Anh
+acute _(adj.)_nghiêm trọng, nhức nhối (cơn đau)_http://audio.tflat.vn/audio/a/c/acute.mp3_ The government has tried to give many explanations to hide its acute embarrassment._Chính phủ đã cố gắng đưa ra nhiều lời giải thích để che giấu sự bối rối nghiêm trọng của nó.
+address _(v.)_nhằm vào, trình bày_http://audio.tflat.vn/audio/a/d/address.mp3_ Marco's business plan addresses the needs of small business owners._Kế hoạch kinh doanh của Marco nhằm vào nhu cầu của những chủ doanh nghiệp nhỏ.
+adequate _(adj.)_đầy đủ_http://audio.tflat.vn/audio/a/d/adequate.mp3_ Make sure that the lighting is adequate so that the guests can see what they are eating. _Hãy đảm bảo đủ ánh sáng, để khách khứa có thể nhìn thấy rõ là họ đang ăn những gì.
+adopt _(v.)_chọn, áp dụng, chấp nhận và làm theo_http://audio.tflat.vn/audio/a/d/adopt.mp3_ The couple have decided to adopt a foreign child._Cặp vợ chồng đã quyết định nhận nuôi một đứa trẻ ngoại quốc.
+affect _(v.)_ảnh hưởng_http://audio.tflat.vn/audio/a/f/affect.mp3_ The divorce affected every aspect of her life. _Việc ly hôn ảnh hưởng mọi mặt của cuộc sống của cô.
+ageing _(n.)_sự lão hóa_http://audio.tflat.vn/audio/a/g/ageing.mp3_ signs of ageing_các dấu hiệu lão hóa
+alternative _(adj.)_xen kẽ, thay thế, luân phiên_http://audio.tflat.vn/audio/a/l/alternative.mp3_ Have you thought of an alternative plan?_Bạn đã nghĩ đến kế hoạch thay thế chưa?
+analyse _(v.)_phân tích_http://audio.tflat.vn/audio/a/n/analyse.mp3_ The job involves gathering and analysing data_Công việc liên quan đến việc thu thập và phân tích dữ liệu
+appreciate _(v.)_đánh giá cao, cảm kích_http://audio.tflat.vn/audio/a/p/appreciate.mp3_ Your support is greatly appreciated. _Hỗ trợ của bạn được đánh giá rất cao.
+appropriate _(adj.)_thích hợp, thích đáng_http://audio.tflat.vn/audio/a/p/appropriate.mp3_ The book was written in a style appropriate to the age of the children_Cuốn sách được viết bằng một phong cách thích hợp với lứa tuổi của trẻ em
+artificial _(adj.)_nhân tạo_http://audio.tflat.vn/audio/a/r/artificial.mp3_ Sputnik is the first artificial satellite. _Sputnik là vệ tinh nhân tạo đầu tiên.
+aspect _(n.)_khía cạnh_http://audio.tflat.vn/audio/a/s/aspect.mp3_ She felt she had looked at the problem from every aspect._Cô ấy cảm thấy rằng cô ấy đã nhìn nhận vấn đề từ mọi khía cạnh.
+assess _(v.)_đánh giá, ước lượng _http://audio.tflat.vn/audio/a/s/assess.mp3_ The insurance rate Mr. Victor was assessed went up this year after he admitted that he had started smoking again._Mức phí bảo hiểm mà ông Victor được định giá tăng lên sau khi ông thú nhận đã bắt đầu hút thuốc trở lại.
+asset _(n.)_tài sản, của cải_http://audio.tflat.vn/audio/a/s/asset.mp3_ The company's asset are worth millions of dollars._Tài sản của công ty trị giá hàng triệu đô-la.
+assignment _(n.)_bài tập_http://audio.tflat.vn/audio/a/s/assignment.mp3_ I have a lot of assignments to complete before the end of ​term._Tôi có rất nhiều bài tập cần hoàn thành trước khi kết thúc học kì.
+assist _(v.)_giúp đỡ, có mặt_http://audio.tflat.vn/audio/a/s/assist.mp3_ Bonnie hired a secretary to assist her with the many details of the event_Bonnie đã thuê một thư ký để trợ giúp cô về rất nhiều chi tiết của sự kiện
+atmosphere _(n.)_không khí_http://audio.tflat.vn/audio/a/t/atmosphere.mp3_ There's a very relaxed atmosphere in our office. _Không khí trong văn phòng của chúng tôi rất là dễ chịu.
+attitude _(n.)_thái độ_http://audio.tflat.vn/audio/a/t/attitude.mp3_ Each person has his or her own attitude towards life._Mỗi người có thái độ sống riêng.
+automatic _(adj.)_tự động_http://audio.tflat.vn/audio/a/u/automatic.mp3_ They use an automatic balance._Họ dùng một cái cân tự động.
+balance _(v.)_quyết toán_http://audio.tflat.vn/audio/b/a/balance.mp3_ It took him over an hour to balance his checkbook._Nó lấy mất của anh hơn một tiếng đồng hồ để quyết toán tập chi phiếu.
+ban _(n.)_luật cấm_http://audio.tflat.vn/audio/b/a/ban.mp3_ There is to be a total ban on smoking in the office._Sẽ có một luật cấm hút thuốc trong văn phòng.
+barrier _(n.)_rào cản, chướng ngại vật_http://audio.tflat.vn/audio/b/a/barrier.mp3_ When you are good at English, the language barrier is not a big problem with you._Khi bạn giỏi Tiếng Anh, rào cản ngôn ngữ không còn là vấn đề lớn với bạn nữa.
+beneficial _(adj.)_có ích, có lợi_http://audio.tflat.vn/audio/b/e/beneficial.mp3_ A good diet is beneficial to health._Một chế độ ăn tốt có lợi cho sức khỏe.
+benefit _(n,.)_lợi ích_http://audio.tflat.vn/audio/b/e/benefit.mp3_ The discovery of oil brought many benefits to the country._Việc phát hiện ra dầu hỏa mang đến nhiều lợi ích cho đất nước đó.
+bias _(n.)_thành kiến, thiên vị_http://audio.tflat.vn/audio/b/i/bias.mp3_ Sexual Orientation discrimination has been a hot topic. _Phân biệt định hướng giới tính đã trở thành một chủ đề nóng bỏng. 
+boom _(v.)_phất lên (công việc buôn bán...), phát đạt_http://audio.tflat.vn/audio/b/o/boom.mp3_ Booming economy still cannot help iron ore manufacturers._Bùng nổ nền kinh tế vẫn không thể giúp các nhà sản xuất quặng sắt.
+bound _(adj.)_chắc chắn hoặc có khả năng (xảy ra, thực hiện...)_http://audio.tflat.vn/audio/b/o/bound.mp3_ There are bound to be changes when the new system is introduced._Chắc chắn sẽ có những thay đổi khi hệ thống mới được giới thiệu.
+brand _(n.)_nhãn hiệu, nhãn hàng, chi nhánh_http://audio.tflat.vn/audio/b/r/brand.mp3_ All brands of aspirin are the same._Mọi nhãn hiệu về thuốc giảm đau aspirin là như nhau.
+budget _(n.)_ngân sách, ngân quỹ_http://audio.tflat.vn/audio/b/u/budget.mp3_ The company will have to prepare bigger budget for this department next year._Công ty sẽ phải dự thảo ngân sách nhiều hơn cho bộ phận này vào năm sau.
+burden _(n.)_gánh nặng_http://audio.tflat.vn/audio/b/u/burden.mp3_ I never consider looking after my elderly parents as a burden, but a token of gratitude._Tôi không bao giờ coi việc chăm sóc bố mẹ già là một gánh nặng, mà coi đó là biểu hiện của lòng biết ơn.
+casual _(adj.)_bình thường, thường ngày_http://audio.tflat.vn/audio/c/a/casual.mp3_ Wearing casual clothes gives me comfort._Mặc quần áo thường ngày tạo cho tôi sự thoải mái.
+casualty _(n.)_nạn nhân, thương vong (chiến tranh, tai nạn)_http://audio.tflat.vn/audio/c/a/casualty.mp3_ road casualties_những thương vong đường xá
+challenge _(n.)_thử thách_http://audio.tflat.vn/audio/c/h/challenge.mp3_ The role will be the biggest challenge of his acting career._Vai diễn này sẽ là thử thách lớn nhất trong sự nghiệp diễn xuất của anh ấy
+chronic _(adj.)_kinh niên (y học), ăn sâu_http://audio.tflat.vn/audio/c/h/chronic.mp3_ Those with chronic bronchitis and heart disease should take the necessary precautions to reduce their chances of exposure to the dust._Những người có bệnh viêm phế quản mãn tính và bệnh tim nên có những biện pháp phòng ngừa cần thiết để giảm nguy cơ tiếp xúc với bụi.
+cognitive _(adj.)_liên quan đến nhận thức_http://audio.tflat.vn/audio/c/o/cognitive.mp3_ There are students suffering from cognitive problems in the school we visited two months ago._Ở ngôi trường mà chúng tôi đi thăm hai tháng trước, có những học sinh gặp phải những vấn đề về nhận thức.
+communicate _(v.)_giao tiếp_http://audio.tflat.vn/audio/c/o/communicate.mp3_ Thanks to the invention of the telephone, we can communicate with others all over the world._Nhờ sự ra đời của điện thoại, chúng ta có thể giao tiếp với những người khác trên thế giới.
+compete _(v.)_đua tài, cạnh tranh_http://audio.tflat.vn/audio/c/o/compete.mp3_ Both girls compete for their father's attention. _Cả hai cô con gái đều cạnh tranh để dành sự chú ý của bố mình.
+competitive _(adj.)_tính cạnh tranh, đua tranh_http://audio.tflat.vn/audio/c/o/competitive.mp3_ He isn’t a competitive person. He just wants to have a peaceful life._Anh ấy không phải là một người thích đua tranh. Anh ấy chỉ muốn có một cuộc sống yên bình.
+complicated _(adj.)_phức tạp, rắc rối_http://audio.tflat.vn/audio/c/o/complicated.mp3_ The story is extremely complicated_Câu chuyện cực kỳ phức tạp
+compound _(n.)_hợp chất_http://audio.tflat.vn/audio/c/o/compound.mp3_ Common salt is a compound of sodium and chlorine._Muối thường là một hợp chất của natri và clo.
+compromise _(n,v.)_sự thoả hiệp_http://audio.tflat.vn/audio/c/o/compromise.mp3_ John doesn't like sweet dishes so I compromised by adding just a small amount of sugar_John không thích các món ăn ngọt vì vậy tôi đã thỏa hiệp bằng cách chỉ thêm một ít đường
+concept _(n.)_khái niệm_http://audio.tflat.vn/audio/c/o/concept.mp3_ Can you grasp the concept of marketing?_Bạn có nắm bắt được khái niệm marketing không?
+conclude _(v.)_kết luận, quyết định_http://audio.tflat.vn/audio/c/o/conclude.mp3_ After long discussions, the board has concluded that the project has to be canceled._Sau những cuộc tranh luận dài, ủy ban đã kết luận rằng dự án phải bị hủy bỏ.
+concrete _(adj.)_cụ thể_http://audio.tflat.vn/audio/c/o/concrete-adj.mp3_ Nothing concrete was made about the case._Không có gì cụ thể đã được thực hiện về trường hợp này.

@@ -1,5 +1,5 @@
 package model;
 
-public interface ProductInfomation {
+public interface Infomation {
     public void info();
 }

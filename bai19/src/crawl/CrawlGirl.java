@@ -1,3 +1,4 @@
+
 package crawl;
 
 import java.io.IOException;
@@ -9,10 +10,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.zip.InflaterInputStream;
 
-public class CrawlDANTRI {
+public class CrawlGirl {
     public static void main(String[] args) {
         try{
-            URL url = new URL("https://dantri.com.vn/giai-tri.htm");
+            URL url = new URL("https://hinhanhdephd.com/bo-suu-tap-girl-xinh-1998-thu-hut-moi-anh-nhin");
 
             Scanner scanner = new Scanner(new InputStreamReader(url.openStream()));
             scanner.useDelimiter("\\Z");
@@ -20,11 +21,11 @@ public class CrawlDANTRI {
             scanner.close();
 
             content.replaceAll("\\n","");
-            Pattern pattern = Pattern.compile("\" href=\"(.*?)\">(.*?)</a></h2>");
+            Pattern pattern1 = Pattern.compile("");
+            Pattern pattern = Pattern.compile("src=\"(.*?)\" alt=\"anh-girl-xinh-1998");
             Matcher matcher = pattern.matcher(content);
             while (matcher.find()){
-                System.out.println(matcher.group(2));
-                System.out.println("https://dantri.com.vn" + matcher.group(1));
+                System.out.println(matcher.group(1));
             }
         } catch (MalformedURLException e) {
             e.printStackTrace();
@@ -33,3 +34,4 @@ public class CrawlDANTRI {
         }
     }
 }
+
