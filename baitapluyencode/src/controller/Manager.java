@@ -64,7 +64,7 @@ public class Manager extends VocabularyList implements Option {
     public void push() throws IOException {
         FileWriter fileWriter = new FileWriter("C:\\Codegym\\module2\\baitapluyencode\\src\\storage\\list.txt");
         for (Vocabulary check: List){
-            fileWriter.write(""+check.getName()+","+check.getType()+","+check.getTranslate()+","+check.getLink()+","+check.getExample()+"("+check.getExampleVN()+")\n");
+            fileWriter.write(""+check.getName()+"_"+check.getType()+"_"+check.getTranslate()+"_"+check.getLink()+"_"+check.getExample()+"("+check.getExampleVN()+")\n");
             fileWriter.flush();
         }
         fileWriter.close();

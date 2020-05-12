@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="baitapluyencode:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/baitapluyencode_jar</output-path>
+    <root id="archive" name="baitapluyencode.jar">
+      <element id="module-output" name="baitapluyencode" />
+    </root>
+  </artifact>
+</component>
