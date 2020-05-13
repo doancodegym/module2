@@ -42,7 +42,7 @@ public class Manager extends VocabularyList implements Option {
     @Override
     public void search(String name) {
         for (int i = 0; i< list.size(); i++) {
-            if(list.get(i).getName().equals(name)){
+            if(list.get(i).getName().contains(name)){
                 System.out.println("Từ vựng : " +
                         list.get(i).getName() +
                         list.get(i).getType() + " : "+

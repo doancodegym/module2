@@ -1,23 +1,24 @@
 package main;
 
+import account.AccountUser;
 import controller.Manager;
 
 import java.io.*;
 import java.util.Scanner;
 
 public class Main {
-    static Manager product =  new Manager();
+    static Manager vocabulary =  new Manager();
     static Scanner input = new Scanner(System.in);
     final static String FILE = "C:\\Codegym\\module2\\baitapluyencode\\src\\storage\\list.txt";
     public static void pull() throws IOException {
-        File fileProduct = new File(FILE);
-        FileReader fileReader = new FileReader(fileProduct);
+        File fileVocabulary = new File(FILE);
+        FileReader fileReader = new FileReader(fileVocabulary);
 
         BufferedReader bufferedReader = new BufferedReader(fileReader);
         String line = "";
         while ((line = bufferedReader.readLine())!= null){
             String[] list = line.split("_");
-            product.addVocabulary(list);
+            vocabulary.addVocabulary(list);
         }
         fileReader.close();
     }
@@ -56,7 +57,19 @@ public class Main {
                     }
                 }
             case 2:
-                member();
+                int numy = -1;
+                while (numy != 0){
+                    System.out.println("Nhập tài khoản:");
+                    String ID = input.next();
+//                    ID = input.nextLine();
+                    System.out.println("Nhập mạt khẩu :");
+                    String pass = input.next();
+                    if(AccountUser.pull(ID,pass)) {
+                        member();
+                    }else {
+                        System.out.println("Sai tài khoản hoặc mật khẩu !");
+                    }
+                }
             case 3:
                 System.out.println("Logout....!");
                 System.exit(-1);
@@ -69,13 +82,13 @@ public class Main {
             int select = input.nextInt();
             switch (select) {
                 case 1:
-                    product.ShowInfo();
+                    vocabulary.ShowInfo();
                     break;
                 case 2:
                     System.out.println("Nhập từ vựng : ");
                     String nameSearch = input.nextLine();
                     nameSearch = input.nextLine();
-                    product.search(nameSearch);
+                    vocabulary.search(nameSearch);
                     break;
                 case 3:
                     System.out.println("Nhập từ vựng :");
@@ -92,7 +105,7 @@ public class Main {
                     System.out.println("Ví dụ dịch:");
                     String exampleVN = input.nextLine();
                     String[] newVocabulary = {vocabulary, type, translate, link, example, exampleVN};
-                    product.addVocabulary(newVocabulary);
+                    Main.vocabulary.addVocabulary(newVocabulary);
                     break;
                 case 4:
                     System.out.println("Nhập từ muốn chỉnh sửa : ");
@@ -110,13 +123,13 @@ public class Main {
                     String newExample = input.nextLine();
                     System.out.println("Dịch nghĩa ví dụ : ");
                     String newExampleVn = input.nextLine();
-                    product.edit(nameEdit, newName, newType, newTranslate, newLink, newExample, newExampleVn);
+                    Main.vocabulary.edit(nameEdit, newName, newType, newTranslate, newLink, newExample, newExampleVn);
                     break;
                 case 5:
                     System.out.println("Nhập từ muốn xóa :");
                     String delName = input.nextLine();
                     delName = input.nextLine();
-                    product.delete(delName);
+                    Main.vocabulary.delete(delName);
                     System.out.println("Đã xóa từ " + delName);
                     break;
                 case 6:
@@ -128,7 +141,7 @@ public class Main {
                     switch (check){
                         case 1:
                             try {
-                                product.push();
+                                Main.vocabulary.push();
                             } catch (IOException e) {
                                 e.printStackTrace();
                             }
@@ -151,12 +164,12 @@ public class Main {
             int value = input.nextInt();
             switch (value) {
                 case 1:
-                    product.readFileMember();
+                    vocabulary.readFileMember();
                     break;
                 case 2:
                     System.out.println("Nhập từ vựng : ");
                     String nameSearch = input.next();
-                    product.search(nameSearch);
+                    vocabulary.search(nameSearch);
                     break;
                 case 3:
                     System.out.println("Logout....!");
