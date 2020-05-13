@@ -64,7 +64,7 @@ public class Vocabulary implements Infomation {
         System.out.println("Từ vựng : " + this.getName() + this.getType() + " : "+this.getTranslate());
         System.out.println("Phát âm : " + this.getLink());
         System.out.println("Ví dụ : " + this.getExample()+"("+this.getExampleVN()+")");
-        System.out.println("====================");
+        System.out.println("===================");
 
     }
 }
