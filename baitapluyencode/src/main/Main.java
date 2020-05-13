@@ -1,7 +1,6 @@
 package main;
 
 import controller.Manager;
-import storage.Crawl;
 
 import java.io.*;
 import java.util.Scanner;
@@ -9,16 +8,16 @@ import java.util.Scanner;
 public class Main {
     static Manager product =  new Manager();
     static Scanner input = new Scanner(System.in);
-
+    final static String FILE = "C:\\Codegym\\module2\\baitapluyencode\\src\\storage\\list.txt";
     public static void pull() throws IOException {
-        File fileProduct = new File("C:\\Codegym\\module2\\baitapluyencode\\src\\storage\\list.txt");
+        File fileProduct = new File(FILE);
         FileReader fileReader = new FileReader(fileProduct);
 
         BufferedReader bufferedReader = new BufferedReader(fileReader);
         String line = "";
         while ((line = bufferedReader.readLine())!= null){
             String[] list = line.split("_");
-            product.addProduct(list);
+            product.addVocabulary(list);
         }
         fileReader.close();
     }
@@ -43,7 +42,6 @@ public class Main {
                 "1.Admin\n" +
                 "2.Thành viên\n" +
                 "3.Thoát");
-
         int num = input.nextInt();
         switch (num){
             case 1:
@@ -94,7 +92,7 @@ public class Main {
                     System.out.println("Ví dụ dịch:");
                     String exampleVN = input.nextLine();
                     String[] newVocabulary = {vocabulary, type, translate, link, example, exampleVN};
-                    product.addProduct(newVocabulary);
+                    product.addVocabulary(newVocabulary);
                     break;
                 case 4:
                     System.out.println("Nhập từ muốn chỉnh sửa : ");
@@ -122,27 +120,38 @@ public class Main {
                     System.out.println("Đã xóa từ " + delName);
                     break;
                 case 6:
-                    try {
-                        product.push();
-                    } catch (IOException e) {
-                        e.printStackTrace();
+                    int check;
+                    System.out.println("===========\n\n" +
+                            "1.Thoát và lưu\n" +
+                            "2.Thoát");
+                    check = input.nextInt();
+                    switch (check){
+                        case 1:
+                            try {
+                                product.push();
+                            } catch (IOException e) {
+                                e.printStackTrace();
+                            }
+                            System.out.println("Logout....!");
+                            System.exit(-1);
+                        case 2:
+                            System.exit(-1);
                     }
-                    System.out.println("Logout....!");
-                    System.exit(-1);
+
                 default:
                     System.out.println("Không hợp lệ !!!");
 
             }
         }
     }
-    public static void member(){
+    public static void member() throws IOException {
         int select = -1;
         while (select !=0) {
             menuMember();
             int value = input.nextInt();
             switch (value) {
                 case 1:
-                    product.ShowInfo();
+                    product.readFileMember();
                     break;
                 case 2:
                     System.out.println("Nhập từ vựng : ");
@@ -150,11 +159,6 @@ public class Main {
                     product.search(nameSearch);
                     break;
                 case 3:
-                    try {
-                        product.push();
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
                     System.out.println("Logout....!");
                     System.exit(-1);
                 default:
