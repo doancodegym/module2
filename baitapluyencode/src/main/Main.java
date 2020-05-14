@@ -48,9 +48,11 @@ public class Main {
             case 1:
                 int numx = -1;
                 while (numx != 0){
+                    System.out.println("Nhập tài khoản :");
+                    String ID = input.next();
                     System.out.println("Nhập mạt khẩu :");
-                    int pass = input.nextInt();
-                    if(pass == 123456) {
+                    String pass = input.next();
+                    if(ID.equals("admin") && pass.equals("123456")) {
                         admin();
                     }else {
                         System.out.println("Sai mật khẩu !");

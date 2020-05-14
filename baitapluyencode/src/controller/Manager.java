@@ -4,15 +4,13 @@ import model.Vocabulary;
 import storage.VocabularyList;
 
 import java.io.*;
-import java.util.List;
 
 public class Manager extends VocabularyList implements Option {
-    final static String FILE_MANAGER = "C:\\Codegym\\module2\\baitapluyencode\\src\\storage\\list.txt";
     final static String FILE_USER = "C:\\Codegym\\module2\\baitapluyencode\\src\\storage\\listUser.txt";
 
 
-    public void addVocabulary(String[] list){
-        Vocabulary vocabulary = new Vocabulary(list[0],list[1],list[2],list[3],list[4],list[5]);
+    public void addVocabulary(String[] array){
+        Vocabulary vocabulary = new Vocabulary(array[0],array[1],array[2],array[3],array[4],array[5]);
         this.list.add(vocabulary);
 
     }
@@ -20,12 +18,24 @@ public class Manager extends VocabularyList implements Option {
     public void edit(String nameOld,String newName,String type,String translate,String link,String example,String exampleVN) {
        for (int i = 0; i < list.size(); i++){
            if(list.get(i).getName().equals(nameOld) ){
-               list.get(i).setName(newName);
-               list.get(i).setType(type);
-               list.get(i).setTranslate(translate);
-               list.get(i).setLink(link);
-               list.get(i).setExample(example);
-               list.get(i).setExampleVN(exampleVN);
+               if (!newName.equals(".")){
+                   list.get(i).setName(newName);
+               }
+               if(!type.equals(".")){
+                   list.get(i).setType(type);
+               }
+               if(!translate.equals(".")){
+                   list.get(i).setTranslate(translate);
+               }
+               if(!link.equals(".")){
+                   list.get(i).setLink(link);
+               }
+               if(!example.equals(".")){
+                   list.get(i).setExample(example);
+               }
+               if(!exampleVN.equals(".")){
+                   list.get(i).setExampleVN(exampleVN);
+               }
            }
        }
     }
@@ -75,7 +85,7 @@ public class Manager extends VocabularyList implements Option {
 
     //push lại dữ liệu trước khi két thúc chương trình
     public void push() throws IOException {
-        FileWriter fileWriter = new FileWriter(FILE_MANAGER);
+        FileWriter fileWriter = new FileWriter(FILE_USER);
         for (Vocabulary check: list){
             fileWriter.write(""+
                     check.getName()+"_"+
