@@ -113,17 +113,17 @@ public class Main {
                     System.out.println("Nhập từ muốn chỉnh sửa : ");
                     String nameEdit = input.nextLine();
                     nameEdit = input.nextLine();
-                    System.out.println("Nhập từ mới : ");
+                    System.out.println("Nhập từ mới :");
                     String newName = input.nextLine();
                     System.out.println("Kiểu :");
                     String newType = input.nextLine();
-                    System.out.println("Dịch nghĩa : ");
+                    System.out.println("Dịch nghĩa :");
                     String newTranslate = input.nextLine();
-                    System.out.println("Link phát âm : ");
+                    System.out.println("Link phát âm :");
                     String newLink = input.nextLine();
                     System.out.println("Ví dụ : ");
                     String newExample = input.nextLine();
-                    System.out.println("Dịch nghĩa ví dụ : ");
+                    System.out.println("Dịch nghĩa ví dụ :");
                     String newExampleVn = input.nextLine();
                     Main.vocabulary.edit(nameEdit, newName, newType, newTranslate, newLink, newExample, newExampleVn);
                     break;
@@ -169,7 +169,7 @@ public class Main {
                     vocabulary.readFileMember();
                     break;
                 case 2:
-                    System.out.println("Nhập từ vựng : ");
+                    System.out.println("Nhập từ vựng :");
                     String nameSearch = input.next();
                     vocabulary.search(nameSearch);
                     break;
