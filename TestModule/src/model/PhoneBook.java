@@ -1,3 +1,5 @@
+package model;
+
 public class PhoneBook {
     String name,phone,address,email, group,gioitinh,ngaysinh;
 

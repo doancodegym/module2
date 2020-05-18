@@ -1,8 +1,13 @@
+package option;
+
+import model.PhoneBook;
+import strage.PhoneBookList;
+
 import java.io.*;
 
-public class PhoneManager extends PhoneBookList {
+public class PhoneManager extends PhoneBookList implements IManager {
     public void read() throws IOException {
-        File fileVocabulary = new File("C:\\Codegym\\module2\\TestModule\\src\\phone.csv");
+        File fileVocabulary = new File("C:\\Codegym\\module2\\TestModule\\src\\strage\\phone.csv");
         FileReader fileReader = new FileReader(fileVocabulary);
 
         BufferedReader bufferedReader = new BufferedReader(fileReader);
@@ -42,7 +47,7 @@ public class PhoneManager extends PhoneBookList {
 
     public void search(String name){
         for(int i = 0;i < list.size();i++){
-            if(list.get(i).getName().equals(name)){
+            if(list.get(i).getName().contains(name)){
                 System.out.println("Họ tên : "+list.get(i).getName()+"\n" +
                         "Số điện thoại : " + list.get(i).getPhone() + "\n" +
                         "Giới tính : " + list.get(i).getGioitinh() + "\n" +
@@ -56,7 +61,7 @@ public class PhoneManager extends PhoneBookList {
     }
 
     public void push() throws IOException {
-        FileWriter fileWriter = new FileWriter("C:\\Codegym\\module2\\TestModule\\src\\phone.csv");
+        FileWriter fileWriter = new FileWriter("C:\\Codegym\\module2\\TestModule\\src\\strage\\phone.csv");
         for (PhoneBook check: list){
             fileWriter.write(""+
                     check.getName()+"_"+

@@ -1,4 +1,9 @@
+package main;
+
+import option.PhoneManager;
+
 import java.io.IOException;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
@@ -58,11 +63,13 @@ public class Main {
     public void removePhoneBook(){
         System.out.println("Nhập họ tên muốn xóa : ");
         String name = input.nextLine();
+        name = input.nextLine();
         manager.delete(name);
     }
     public void searchPhoneBook(){
         System.out.println("Nhập họ tên muốn tìm kiếm : ");
         String name = input.nextLine();
+        name = input.nextLine();
         manager.search(name);
     }
     public void read(){
@@ -79,38 +86,43 @@ public class Main {
             System.out.println("Lỗi không thể ghi,kiểm tra lại !!!");
         }
     }
-    public void start(){
-       int x = -1;
-       while (x != 0){
-           menu();
-           int choose = input.nextInt();
-           switch (choose){
-               case 1:
-                   manager.showInfo();
-                   break;
-               case 2:
-                   addPhoneBook();
-                   break;
-               case 3:
-                   editPhonBook();
-                   break;
-               case 4:
-                   removePhoneBook();
-                   break;
-               case 5:
-                   searchPhoneBook();
-                   break;
-               case 6:
-                   read();
-                   break;
-               case 7:
-                   write();
-                   break;
-               case 8:
-                   System.exit(-1);
-               default:
-                   System.out.println("Không hợp lệ !");
-           }
-       }
+    public void start() {
+        try {
+            int x = -1;
+            while (x != 0) {
+                menu();
+                int choose = input.nextInt();
+                switch (choose) {
+                    case 1:
+                        manager.showInfo();
+                        break;
+                    case 2:
+                        addPhoneBook();
+                        break;
+                    case 3:
+                        editPhonBook();
+                        break;
+                    case 4:
+                        removePhoneBook();
+                        break;
+                    case 5:
+                        searchPhoneBook();
+                        break;
+                    case 6:
+                        read();
+                        System.out.println("Đã cập nhật danh bạ.");
+                        break;
+                    case 7:
+                        write();
+                        break;
+                    case 8:
+                        System.exit(-1);
+                    default:
+                        System.out.println("Không hợp lệ !");
+                }
+            }
+        } catch (InputMismatchException e) {
+                System.out.println("Nhập không hợp lệ,chỉ nhập số ! ");
+            }
+        }
     }
-}
